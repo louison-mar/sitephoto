@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="script.js" defer></script>
+    <!-- jQuery (Nécessaire pour Slick) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Votre script personnalisé pour initialiser Slick -->
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+<div class="navbar">
+    <!-- Section des réseaux sociaux à gauche -->
+    <div class="social-icons">
+        <a href="https://www.facebook.com/louison.martin.182" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/m_louison/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/louison-martin-624400267/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <!-- Logo centré -->
+    <div class="logo">
+        <img src="photos/logo2.png" alt="Logo">
+    </div>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a id="closeBtn" href="#" class="close">×</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <a href="#" id="openBtn">
+        <span class="burger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+    </a>
+</div>
+
+<header class="hero">
+    <div class="scroll-indicator">
+        <p>Scroll Down</p>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+</header>
+
+<main>
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="photos/studio_lm.jpg" alt="My Photo">
+            </div>
+            <div class="about-text">
+                <p>
+                    French photographer based in Lyon, I specialize in capturing the beauty of moments through an instinctive and emotional approach. Whether it’s a serene landscape or a vibrant event, I aim to immortalize emotions and memories in compelling ways.<br>
+                    <a href="about.html" class="btn" aria-label="Learn more about me">Learn More</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="slick-carousel">
+            <!-- Carousel Items -->
+            <div><img src="photos/nature/ETRE_mesange.jpg" alt="Image 1"><p class="gallery-caption">Beautiful Nature + stunning landscape</p></div>
+            <div><img src="photos/CouvertureRotonte1938_LMartin-29.jpg" alt="Image 2"><p class="gallery-caption">Event Memories</p></div>
+            <div><img src="photos/studio111124_LMartin-187.jpg" alt="Image 3"><p class="gallery-caption">studio</p></div>
+            <div><img src="photos/epoqauto_LMartin-27.jpg" alt="Image 4"><p class="gallery-caption">Vehicle</p></div>
+            <div><img src="photos/fourvière_inter.jpg" alt="Image 5"><p class="gallery-caption">Buildings + urban adventure</p></div>
+        </div>
+        <a href="gallery.html" class="btn" aria-label="Learn more about me">Discover Gallery</a>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <p>Discover the various photography services I offer, tailored to meet your unique needs.</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-camera-retro service-icon"></i>
+                <h3>Event Photography</h3>
+                <p>Capture memorable moments with professional event photography for weddings, parties, and more.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-user service-icon"></i>
+                <h3>Portrait Photography</h3>
+                <p>Timeless portraits that reflect your personality and style, perfect for personal or professional use.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tree service-icon"></i>
+                <h3>Nature & Landscape</h3>
+                <p>Stunning shots of natural landscapes and wildlife, bringing the beauty of the outdoors to life.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-lightbulb service-icon"></i>
+                <h3>Studio Sessions</h3>
+                <p>Create polished and artistic photos in a controlled studio setting, ideal for any occasion.</p>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>website build by myself enjoy!</p>
+</footer>
+</body>
+</html>
